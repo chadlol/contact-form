@@ -2,11 +2,21 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: beige;
 }
 
 * {
-  outline: 1px dotted black;
+  /* outline: 1px dotted black; */
 }
 
 /* Your Awesome Scripts */
+
+label,
+textarea,
+input {
+  display: block;
+}
+
+form {
+  padding: 1em;
+}
